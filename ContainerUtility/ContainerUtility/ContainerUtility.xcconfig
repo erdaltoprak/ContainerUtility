@@ -1,0 +1,16 @@
+//
+//  ContainerUtility.xcconfig
+//  ContainerUtility
+//
+//  Created by Erdal Toprak on 14/03/2026.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+SLASH = / // Otherwise a double slash is treated as a comment, even inside a quoted string
+
+DEVELOPMENT_TEAM = A2NYRQCGYA
+PRODUCT_BUNDLE_IDENTIFIER = me.erdal.containerutility
+SPARKLE_FEED_URL = https:$(SLASH)$(SLASH)erdaltoprak.github.io/ContainerUtility/appcast.xml
+SPARKLE_PUBLIC_ED_KEY = EMmwBFJGUN16l9/7r2TnrdV7+nHDpXE6F0VeRj18wfo=

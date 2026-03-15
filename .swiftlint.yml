@@ -1,0 +1,62 @@
+# SwiftLint Configuration - Compatible with swift-format
+
+included:
+  - ContainerUtility/ContainerUtility
+
+excluded:
+  - Carthage
+  - Pods
+  - .build
+  - Build
+  - Frameworks
+  - ContainerUtility/ContainerUtility.xcodeproj
+  - ContainerUtility/ContainerUtility/Assets.xcassets
+
+# Disable rules that conflict with swift-format
+disabled_rules:
+  - opening_brace
+  - trailing_comma
+  - line_length
+  - file_length
+  - function_body_length
+  - cyclomatic_complexity
+  - nesting
+  - todo
+  - type_body_length
+
+opt_in_rules:
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - empty_count
+  - empty_string
+  - fatal_error_message
+  - first_where
+  - force_unwrapping
+  - vertical_whitespace_closing_braces
+
+analyzer_rules:
+  - unused_declaration
+
+# Relaxed configurations for real-world code
+identifier_name:
+  min_length:
+    warning: 1
+  excluded:
+    - id
+    - x
+    - y
+    - i
+    - j
+    - URL
+    - UUID
+
+type_name:
+  min_length: 3
+  max_length: 50
+
+function_parameter_count:
+  warning: 6
+  error: 10
+
+reporter: "xcode"

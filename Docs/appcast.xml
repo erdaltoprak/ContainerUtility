@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ContainerUtility</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 16 Mar 2026 01:21:48 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/erdaltoprak/ContainerUtility/releases/download/v1.0.0/ContainerUtility.zip" length="10727131" type="application/octet-stream" sparkle:edSignature="SyhsIZWnQRHQ2VVuWxdlnkbXsHvxNmKt8qFmJ6hY/RpumWYiNHE/gw5JiFETOe1EyVvESv6w/17C+34q3t7oAQ=="/>
+        </item>
+    </channel>
+</rss>
