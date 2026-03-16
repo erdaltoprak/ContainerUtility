@@ -2,6 +2,19 @@
 
 ContainerUtility is a native macOS SwiftUI app for working with the `container` CLI through a focused desktop UI. It is designed as a lightweight utility that can live in the menu bar while giving you a full workspace for containers, images, networks, volumes, registry sessions, runtime health, recent operations, and diagnostics.
 
+<table>
+  <tr>
+    <td width="78%">
+      <img src="./Assets/home-view.png" alt="ContainerUtility home view" />
+    </td>
+    <td width="22%" align="center">
+      <img src="./Assets/menu-bar.png" alt="ContainerUtility menu bar extra" />
+    </td>
+  </tr>
+</table>
+
+<p align="center"><em>Main workspace and the menu bar extra.</em></p>
+
 ## Features
 
 - Native macOS app built with SwiftUI
